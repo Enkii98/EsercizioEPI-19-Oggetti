@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/css.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <div>
+    <form>
+      <label for="nome">Nome:</label>
+      <input type="text" name="nome" id="nome" required="required"/>
+
+      <label for="cognome">Cognome:</label>
+      <input type="text" name="cognome" id="cognome" required="required"/>
+
+      <label for="nascita">Anno di nascita:</label>
+      <input type="date" id="nascita" required="required"/>
+
+      <br>
+
+      <input type="submit" id="invio"/>
+    </form>
+
+    <table>
+      <colgroup span="3"></colgroup>
+      <thead>
+        <tr>
+          <th>Nome</th>
+          <th>Cognome</th>
+          <th>Anni</th>
+        </tr>
+      </thead>
+      <tbody id="dati">
+      </tbody>
+    </table>
+  </div>
+
+
+  <script src="assets/js/js.js"></script>
+
+</body>
+
+</html>

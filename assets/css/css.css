@@ -1,0 +1,18 @@
+div {
+  display: flex;
+  justify-content: space-between;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+table{
+  width: 50%;
+  text-align: center;
+}
+
+tr{
+  outline: 2px solid;
+}
